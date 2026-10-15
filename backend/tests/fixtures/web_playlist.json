@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "data": {"playlistV2": {
+      "__typename": "Playlist", "name": "Fixture playlist", "description": "Independent protocol fixture",
+      "ownerV2": {"data": {"uri": "spotify:user:fixture-owner", "username": "fixture-owner"}},
+      "revisionId": "revision-one", "content": {"totalCount": 3}, "attributes": []
+    }}
+  },
+  "items": [
+    {"uid":"slot1","addedAt":{"isoString":"2025-01-01T12:00:00Z"},"addedBy":{"data":{"uri":"spotify:user:fixture-owner"}},"itemV2":{"data":{
+      "__typename":"Track","uri":"spotify:track:track1","name":"First song",
+      "artists":{"items":[{"uri":"spotify:artist:artist1","profile":{"name":"First artist"}},{"uri":"spotify:artist:artist2","profile":{"name":"Guest artist"}}]},
+      "albumOfTrack":{"name":"Fixture album"},"trackDuration":{"totalMilliseconds":123000},"contentRating":{"label":"EXPLICIT"},"playability":{"playable":true}
+    }}},
+    {"uid":"slot2","addedAt":{"isoString":"2025-01-02T12:00:00Z"},"addedBy":{"data":{}},"itemV2":{"data":{
+      "__typename":"Track","uri":"spotify:track:track1","name":"First song",
+      "artists":{"items":[{"uri":"spotify:artist:artist1","profile":{"name":"First artist"}}]},
+      "albumOfTrack":{"name":"Fixture album"},"trackDuration":{"totalMilliseconds":123000},"contentRating":{"label":"EXPLICIT"}
+    }}},
+    {"uid":"slot3","addedAt":null,"addedBy":null,"itemV2":{"data":{"__typename":"NotFound"}}}
+  ]
+}

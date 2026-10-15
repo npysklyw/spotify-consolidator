@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+node_modules/
+dist/
+coverage/
+*.db
+.DS_Store
+
+# Personal source playlist samples
+links.txt
+
+*.tsbuildinfo
